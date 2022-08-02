@@ -1,7 +1,8 @@
 import './App.css';
 import {BrowserRouter, Routes,Route} from 'react-router-dom'
-import Home from './Home'
 import Navbar from './Navbar'
+import Home from './Home'
+import Order from './Order'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/order" element={<Order/>}/>
       </Routes>
     </BrowserRouter>
   );

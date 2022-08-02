@@ -1,0 +1,48 @@
+* {
+    --theme_color: rgb(53, 223, 166);
+}
+
+.Home__container {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.Home__text h1{
+    font-size: 65px;
+    line-height: 65px;
+}
+
+mark.green {
+    color:var(--theme_color);
+    background: none;
+}
+
+.Home__text p {
+    font-size: 18px;
+    color: rgb(72, 107, 107);
+}
+
+.Home__button{
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: var(--theme_color);
+    border-radius: 5px;
+    border: 0px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Home__right{
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 920px) {
+    .Home__container {
+        flex-direction: column;
+    }
+}

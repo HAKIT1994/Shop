@@ -1,11 +1,13 @@
 import React from 'react'
-
+import Home_main from './Home/Home-main'
+import Home_about from './Home/Home-about'
 
 function Home() {
-  return (
-    <div>
-        <h1>Home</h1>  
-    </div>
+  return(
+    <>
+      <Home_main/>
+      <Home_about/>
+    </>
   )
 }
 
