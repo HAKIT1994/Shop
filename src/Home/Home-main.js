@@ -10,8 +10,10 @@ function Home_main() {
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.
           </p>
         </div>
-        <button type='button' className='Home__button'>Place an Order</button>
-        <p><mark class="green">4.8 out of 5</mark> based on 2000+ reviews</p>
+        <div className='button__area'>
+            <button type='button' className='Home__button'>Place an Order</button>
+            <p><mark class="green">4.8 out of 5</mark> based on 2000+ reviews</p>
+        </div>
       </div>
       <div className='Home__right'>
         <img src="images/home-food.png" alt="food" className='Home__image'/>

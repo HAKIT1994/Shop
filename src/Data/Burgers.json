@@ -1,0 +1,14 @@
+[
+{
+    "name":"Burger Dreams",
+    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "price":9.20,
+    "img":""
+},
+{
+    "name":"Burger Waldo",
+    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "price":10.00,
+    "img":""
+}
+]
