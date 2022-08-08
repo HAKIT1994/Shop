@@ -1,0 +1,14 @@
+[
+{
+    "name":"Salad Ceaser",
+    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "price":6.00,
+    "img":"images/sides/Salad_Ceaser.png"
+},
+{
+    "name":"Beans Slow Cooked",
+    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "price":4.00,
+    "img":"images/sides/Beans_Slow_Cooked.png"
+}
+]

@@ -87,20 +87,20 @@
         left:0;
         top:0px;
         text-decoration: none;
-        background-color: #fff;
         position: absolute;
         box-shadow: 5px 10px 8px #dddddd;
         /* animation */
         opacity: 0;
         z-index: -1;
+
     }
     
-
     .navbar__menu.active{
         top:110px;
         opacity: 1;
         z-index: 1;
         transition: all 0.5s ease;
+        background-color: #fff;
     }
 }
 

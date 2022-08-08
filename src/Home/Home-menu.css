@@ -1,0 +1,130 @@
+body {
+    --theme_color: rgb(53, 223, 166);
+}
+
+.Home__menu__bottom{
+    
+}
+
+.Home__menu__container{
+    display: flex;
+    justify-content: left;
+    gap:20px;
+    flex-wrap: wrap;
+    padding-left: 5vw;
+}
+
+
+.Menu_item_box {
+    list-style-type: none;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: rgb(204, 232, 255);
+    border-style: solid;
+    border-width: 0.1px;
+    display: flex;
+    width: 40vw;
+    
+}
+
+
+.Menu_item_img{
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu_item_left{
+    display: flex;
+    align-items: center;
+    
+}
+
+.Menu_item_right{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    margin-left: -130px;
+}
+
+.Menu_item_top{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 10px;
+}
+
+.Menu_item_bottom{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+    gap:10px;
+    
+    
+}
+
+.Menu_item_Name{
+    font-size:large;
+    margin-bottom: 15px;
+}
+
+.Menu_item_price{
+    color:var(--theme_color) ;
+}
+
+.Menu_item_description{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.Menu_item_input{
+    width: 35px;
+    border-radius: 5px;
+    border-color: #dddd;
+    border-style: solid;
+    border-width: 2px;
+    /* padding inside */
+    padding: 8px;
+}
+
+.Menu_button_ToCart{
+    padding: 8px;
+    border-radius: 5px;
+    background-color:var(--theme_color);
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.Menu__button__container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .Menu_item_box{
+        flex-direction: column;
+    }
+
+    .Menu_item_right{
+        margin-left: auto;
+    }
+
+    .Menu_item_left{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .Home__menu__container{
+        padding-left: 0vw;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

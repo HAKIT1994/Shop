@@ -4,6 +4,7 @@ import './Home.css'
 function Home_method() {
   return (
     <>
+    <div>
         <div className='Home__top'>
             <mark class="green"><h1>How it works.</h1></mark>
         </div> 
@@ -34,6 +35,7 @@ function Home_method() {
                     </div>
                 </li>
             </ul>
+        </div>
         </div>
     </>
   )

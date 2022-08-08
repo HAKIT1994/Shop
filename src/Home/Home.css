@@ -1,5 +1,7 @@
-* {
+body {
     --theme_color: rgb(53, 223, 166);
+    background-color: rgb(247, 255, 255);
+    
 }
 
 mark.green {
@@ -11,7 +13,8 @@ mark.green {
     display: flex;
     justify-content: center;
     padding: 100px;
-    grid-column-gap:50px
+    grid-column-gap:50px;
+
 }
 
 .Home__text h1{
@@ -79,6 +82,9 @@ mark.green {
     max-width: 100%;
     max-height: 100%;
     /* 100% to responsive */
+    /* box-sizing: content-box;
+    width: 100%; */
+    
     opacity: 0;
     animation: fadein 1s, scale 1s ;
     animation-delay: 0.1s;
@@ -127,6 +133,37 @@ mark.green {
     color: rgb(117, 117, 117);
 }
 
+.Menu__button{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 60px;
+    gap: 50px;
+}
+
+.Menu__button__active{
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 5px;
+    background-color:var(--theme_color);
+    color: #fff;
+    cursor: pointer;
+}
+
+.Menu__button__deactive{
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 5px;
+    background-color:#fff;
+    color: #242424;
+    border: 1px solid #242424;
+    cursor: pointer;
+}
 
 
 @keyframes fadein {

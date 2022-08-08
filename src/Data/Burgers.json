@@ -3,12 +3,18 @@
     "name":"Burger Dreams",
     "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     "price":9.20,
-    "img":""
+    "img":"images/burgers/Burger_Dreams.png"
 },
 {
     "name":"Burger Waldo",
     "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     "price":10.00,
-    "img":""
+    "img":"images/burgers/Burger_Waldo.png"
+},
+{
+    "name":"Burger Cali",
+    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "price":8.00,
+    "img":"images/burgers/Burger_Cali.png"
 }
 ]
